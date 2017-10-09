@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>卷皮网-即将上线</title>
+		<link rel="stylesheet" type="text/css" href="../css/new_jjsx.css" />
+	</head>
+
+	<body>
+		<!--第一部分开始-->
+		<div class="fixed">
+			<ul class="fixed1">
+				<li>
+					<a href="#">
+						<i><img src="../img/固定部分图片/QQ截图07.png"/></i>
+						<i><img src="../img/固定部分图片/QQ截图01.png"/></i>
+					</a>
+				</li>
+				<li id="long">
+					<a href="#">
+						<i><img src="../img/固定部分图片/QQ截图08.png"/></i>
+						<i><img src="../img/固定部分图片/QQ截图02.png"/></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i><img src="../img/固定部分图片/QQ截图09.png"/></i>
+						<i><img src="../img/固定部分图片/QQ截图03.png"/></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i><img src="../img/固定部分图片/QQ截图10.png"/></i>
+						<i><img src="../img/固定部分图片/QQ截图04.png"/></i>
+					</a>
+				</li>
+			</ul>
+			<ul class="fixed2">
+				<li>
+					<a href="#">
+						<i><img src="../img/固定部分图片/QQ截图11.png"/></i>
+						<i><img src="../img/固定部分图片/QQ截图05.png"/></i>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i><img src="../img/固定部分图片/QQ截图12.png"/></i>
+						<i><img src="../img/固定部分图片/QQ截图06.png"/></i>
+					</a>
+				</li>
+				<li id="back">
+					<a>
+						<i><img src="../img/固定部分图片/QQ截图20170515083757.png"/></i>
+						<i><img src="../img/固定部分图片/QQ截图20170515083637.png"/></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--返回锚点部分-->
+		<script>
+			var back = document.getElementById("back");
+			document.body.onscroll = function() {
+				if(document.documentElement.scrollTop > 300) {
+					back.style.display = 'block';
+				} else {
+					back.style.display = 'none';
+				}
+			};
+			back.onclick = function() {
+				var timer = setInterval(function() {
+					window.scrollTo(0, document.documentElement.scrollTop - 100);
+					if(document.documentElement.scrollTop <= 0) {
+						clearInterval(timer);
+					}
+				}, 10);
+			};
+		</script>
+		<!--第一部分结束-->
+		<!--第二部分开始-->
+		<div class="topbar">
+			<div class="core">
+				<ul>
+					<li class="core1">
+						<a href="#">登录</a>
+						<a href="#" id="a1">免费注册</a>
+						&nbsp;<small>|</small>
+						<a href="#">我的订单</a>
+						<small>|</small>
+					</li>
+					<li class="core2">
+						<a href="#">购物袋<small>0</small></a>
+						<p>好像还没有
+							<a href="#">登录</a>哦~</p>
+						<small>|</small>
+					</li>
+					<li class="core3">
+						<span>商家中心</span>
+						<a href="#">
+							<span>供应商平台</span>
+							<span>导购平台</span>
+						</a>
+					</li>
+					<li class="core3">
+						<span>客服中心</span>
+						<a href="#">
+							<span>帮助中心</span>
+							<span>联系客服</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--第二部分结束-->
+		<!--第三部分开始-->
+		<div class="frame">
+			<!--第三部分上部开始-->
+			<div class="logo">
+				<div>
+					<!--卷皮管网商标 -->
+					<a class="logo1" href="#"></a>
+				</div>
+				<div class="logo2">
+					<div class="logo3">
+						<a href="#" title="每天十点开枪"></a>
+						<a href="#" title="职业买手砍价"></a>
+						<a href="#" title="商品验货质检"></a>
+					</div>
+					<!-- 搜索框和搜索-->
+					<div class="search">
+						<!--搜索框 -->
+						<input type="text" name="txt" placeholder="请输入想找的宝贝" />
+						<!--搜索-->
+						<button class="b1"><img src="img/上部图片/QQ截图20170426172650.png"/></button>
+					</div>
+				</div>
+			</div>
+			<!--第三部分上部结束-->
+			<!--第三部分下部开始-->
+			<div class="navbar">
+				<ul class="nav1">
+					<li>
+						<a href="#">最新折扣</a>
+					</li>
+					<li>
+						<a href="#">品牌折扣</a>
+					</li>
+					<li>
+						<a href="#">特卖精选</a>
+					</li>
+					<li>
+						<a href="#">9.9包邮</a>
+					</li>
+					<li class="bag">
+						<a href="#">即将上线</a>
+					</li>
+					<li >
+						<a id="a2" href="#">手机版</a>
+					</li>
+				</ul>
+				<div class="nav3">
+					<a href="#">签到领积分</a>
+					<div class="box">
+						<p class="box1">
+							<a href="#">赚积分攻略</a>
+						</p>
+						<p class="box2">
+							<a href="#">我的积分</a>
+							|
+							<a href="#">积分商城</a><br>
+							<a href="#">新手任务，开始起步！</a>
+							<br> QQ特享群：
+							<b>390623218</b>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--第三部分下部结束-->
+		</div>
+		<!--第三部分结束-->
+		<!--隐藏菜单部分开始-->
+		<div id="menu">
+			<ul id="menu1">
+				<li class="red">
+					<a href="#">全部品牌</a>
+				</li>
+				<li>
+					<a href="#">女装</a>
+				</li>
+				<li>
+					<a href="#">鞋子</a>
+				</li>
+				<li>
+					<a href="#">男装</a>
+				</li>
+				<li>
+					<a href="#">母婴</a>
+				</li>
+				<li>
+					<a href="#">箱包</a>
+				</li>
+				<li>
+					<a href="#">数码电器</a>
+				</li>
+				<li>
+					<a href="#">居家</a>
+				</li>
+				<li>
+					<a href="#">文体</a>
+				</li>
+				<li>
+					<a href="#">美妆</a>
+				</li>
+				<li>
+					<a href="#">配饰</a>
+				</li>
+				<li>
+					<a href="#">美食</a>
+				</li>
+			</ul>
+		</div>
+		<!--隐藏菜单部分结束-->
+		<!--隐藏菜单部分js代码开始-->
+		<script>
+			var menu = document.getElementById('menu');
+			document.addEventListener('scroll', function() {
+				if(document.documentElement.scrollTop >= 157) {
+					menu.style.position = 'fixed';
+				} else {
+					menu.style.position = 'relative';
+				}
+			});
+		</script>
+		<!--隐藏菜单部分js代码结束-->
+		<!--一张横幅-->
+		<div class="img">
+			<img src="../img/上部图片/advance-nav.png" />
+		</div>
+		<!--一条线-->
+		<div class="line">
+			<div></div>
+			<span>
+				<span>
+				    <em></em>
+				           今日20:00点开抢
+				    <em></em>
+				</span>
+			</span>
+		</div>
+		<!--第四部分开始-->
+		<div class="good clearfloat">
+			<ul class="goods">
+				<li>
+					<div class="goods1">
+						<a href="#">
+							<img src="../img/s中部图片/591eb65fa43d1f67e12a9d40_800x800.jpg" />
+							<div href="#" class="shadows">
+								<div class="shadow"></div>
+								<div class="shadow1"><img src="../img/s中部图片/app-code-juan.png"/></div>
+								<div class="text"></div>
+								<div class="shadow3 clearfloat">
+									<em><img src="../img/s中部图片/2.png"/></em>
+									<span>
+				                                                               下载手机客户端<br />
+                                                                                                         提前10分钟开抢提醒
+				                    </span>
+								</div>
+							</div>
+							<i>
+							    <img src="../img/s中部图片/brand.png"/>
+							    <a href="#" class="love" title="加入收藏">
+							    	<img src="../img/s中部图片/my-like_01.png"  />
+							    </a>
+						    </i>
+						</a>
+					</div>
+					<h3 class="goods2">
+					    <a href="#">热销折扣专场</a>
+					    <span>新品上架</span>
+				    </h3>
+					<div class="goods3">
+						<span>
+						    29<em>￥</em>
+					    </span>
+						<span>
+						    <span>
+						        <del>￥199</del>
+						    </span>
+						<a href="#" class="blue">
+							<span>今日20:00</span>
+						</a>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="goods1">
+						<a href="#">
+							<img src="../img/s中部图片/591ab161ad0a49be5f8b45ef_800x800.jpg" />
+							<div href="#" class="shadows">
+								<div class="shadow"></div>
+								<div class="shadow1"><img src="../img/s中部图片/app-code-juan.png"/></div>
+								<div class="text"></div>
+								<div class="shadow3 clearfloat">
+									<em><img src="../img/s中部图片/2.png"/></em>
+									<span>
+				                                                               下载手机客户端<br />
+                                                                                                         提前10分钟开抢提醒
+				                    </span>
+								</div>
+							</div>
+							<i>
+							    <img src="../img/s中部图片/brand.png"/>
+							    <a href="#" class="love" title="加入收藏">
+							    	<img src="../img/s中部图片/my-like_01.png"  />
+							    </a>
+						    </i>
+						</a>
+					</div>
+					<h3 class="goods2">
+					    <a href="#">字母印花七分裤套装</a>
+					    <span>新品上架</span>
+				    </h3>
+					<div class="goods3">
+						<span>
+						    39<em>￥</em>
+					    </span>
+						<span>
+						    <span>
+							    <del>￥199</del>
+						    </span>
+						<a href="#" class="blue">
+							<span>今日20:00</span>
+						</a>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="goods1">
+						<a href="#">
+							<img src="../img/s中部图片/57eb37a0151ad16d488b457d_800x800.jpg" />
+							<div href="#" class="shadows">
+								<div class="shadow"></div>
+								<div class="shadow1"><img src="../img/s中部图片/app-code-juan.png"/></div>
+								<div class="text"></div>
+								<div class="shadow3 clearfloat">
+									<em><img src="../img/s中部图片/2.png"/></em>
+									<span>
+				                                                               下载手机客户端<br />
+                                                                                                         提前10分钟开抢提醒
+				                    </span>
+								</div>
+							</div>
+							<i>
+							    <img src="../img/s中部图片/brand.png"/>
+							    <a href="#" class="love" title="加入收藏">
+							    	<img src="../img/s中部图片/my-like_01.png"  />
+							    </a>
+						    </i>
+						</a>
+					</div>
+					<h3 class="goods2">
+					    <a href="#">乐拖新款拖鞋清凉专场</a>
+					    <span>新品上架</span>
+				    </h3>
+					<div class="goods3">
+						<span>
+						    11<em>￥</em>
+					    </span>
+						<span>
+						    <span>
+						        <del>￥68</del>
+						    </span>
+						<a href="#" class="blue">
+							<span>今日20:00</span>
+						</a>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="goods1">
+						<a href="#">
+							<img src="../img/s中部图片/58ff5a97a43d1f50a47849aa_800x800.jpg" />
+							<div href="#" class="shadows">
+								<div class="shadow"></div>
+								<div class="shadow1"><img src="../img/s中部图片/app-code-juan.png"/></div>
+								<div class="text"></div>
+								<div class="shadow3 clearfloat">
+									<em><img src="../img/s中部图片/2.png"/></em>
+									<span>
+				                                                               下载手机客户端<br />
+                                                                                                         提前10分钟开抢提醒
+				                    </span>
+								</div>
+							</div>
+							<i>
+							    <img src="../img/s中部图片/brand.png"/>
+							    <a href="#" class="love" title="加入收藏">
+							    	<img src="../img/s中部图片/my-like_01.png"  />
+							    </a>
+						    </i>
+						</a>
+					</div>
+					<h3 class="goods2">
+					    <a href="#">纯色简约百搭短袖T恤</a>
+					    <span>新品上架</span>
+				    </h3>
+					<div class="goods3">
+						<span>
+						    35<em>￥</em>
+					    </span>
+						<span>
+						    <span>
+						        <del>￥299</del>
+						    </span>
+						<a href="#" class="blue">
+							<span>今日20:00</span>
+						</a>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="goods1">
+						<a href="#">
+							<img src="../img/s中部图片/570f9e9292be593e978b4578_800x800.jpg" />
+							<div href="#" class="shadows">
+								<div class="shadow"></div>
+								<div class="shadow1"><img src="../img/s中部图片/app-code-juan.png"/></div>
+								<div class="text"></div>
+								<div class="shadow3 clearfloat">
+									<em><img src="../img/s中部图片/2.png"/></em>
+									<span>
+				                                                               下载手机客户端<br />
+                                                                                                         提前10分钟开抢提醒
+				                    </span>
+								</div>
+							</div>
+							<i>
+							    <img src="../img/s中部图片/brand.png"/>
+							    <a href="#" class="love" title="加入收藏">
+							    	<img src="../img/s中部图片/my-like_01.png"  />
+							    </a>
+						    </i>
+						</a>
+					</div>
+					<h3 class="goods2">
+					    <a href="#">儿童护耳防水洗头帽</a>
+					    <span>新品上架</span>
+				    </h3>
+					<div class="goods3">
+						<span>
+						    13.9<em>￥</em>
+					    </span>
+						<span>
+						    <span>
+						        <del>￥19.9</del>
+						    </span>
+						<a href="#" class="blue">
+							<span>今日20:00</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<div class="goods1">
+						<a href="#">
+							<img src="../img/s中部图片/59113239ad0a4964938b45d5_800x800.jpg" />
+							<div href="#" class="shadows">
+								<div class="shadow"></div>
+								<div class="shadow1"><img src="../img/s中部图片/app-code-juan.png"/></div>
+								<div class="text"></div>
+								<div class="shadow3 clearfloat">
+									<em><img src="../img/s中部图片/2.png"/></em>
+									<span>
+				                                                               下载手机客户端<br />
+                                                                                                         提前10分钟开抢提醒
+				                    </span>
+								</div>
+							</div>
+							<i>
+							    <img src="../img/s中部图片/brand.png"/>
+							    <a href="#" class="love" title="加入收藏">
+							    	<img src="../img/s中部图片/my-like_01.png"  />
+							    </a>
+						    </i>
+						</a>
+					</div>
+					<h3 class="goods2">
+					    <a href="#">户外多功能跑步腰包</a>
+					    <span>新品上架</span>
+				    </h3>
+					<div class="goods3">
+						<span>
+						    29.9<em>￥</em>
+					    </span>
+						<span>
+						    <span>
+						        <del>￥108</del>
+						    </span>
+						<a href="#" class="blue">
+							<span>今日20:00</span>
+						</a>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="goods1">
+						<a href="#">
+							<img src="../img/s中部图片/5916841ca43d1f74392c0d17_800x800.jpg" />
+							<div href="#" class="shadows">
+								<div class="shadow"></div>
+								<div class="shadow1"><img src="../img/s中部图片/app-code-juan.png"/></div>
+								<div class="text"></div>
+								<div class="shadow3 clearfloat">
+									<em><img src="../img/s中部图片/2.png"/></em>
+									<span>
+				                                                               下载手机客户端<br />
+                                                                                                         提前10分钟开抢提醒
+				                    </span>
+								</div>
+							</div>
+							<i>
+								<img src="../img/s中部图片/brand.png"/>
+								<a href="#" class="love" title="加入收藏">
+							    	<img src="../img/s中部图片/my-like_01.png"  />
+							    </a>
+							</i>
+						</a>
+					</div>
+					<h3 class="goods2">
+					    <a href="#">姿美服饰小店</a>
+					    <span>新品上架</span>
+				    </h3>
+					<div class="goods3">
+						<span>
+						    49<em>￥</em>
+					    </span>
+						<span>
+						    <span>
+						        <del>￥369</del>
+						    </span>
+						<a href="#" class="blue">
+							<span>今日20:00</span>
+						</a>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="goods1">
+						<a href="#">
+							<img src="../img/s中部图片/5909ffdea43d1f317e2a28f9_800x800.jpg" />
+							<div href="#" class="shadows">
+								<div class="shadow"></div>
+								<div class="shadow1"><img src="../img/s中部图片/app-code-juan.png"/></div>
+								<div class="text"></div>
+								<div class="shadow3 clearfloat">
+									<em><img src="../img/s中部图片/2.png"/></em>
+									<span>
+				                                                               下载手机客户端<br />
+                                                                                                         提前10分钟开抢提醒
+				                    </span>
+								</div>
+							</div>
+							<i>
+							    <img src="../img/s中部图片/brand.png"/>
+							    <a href="#" class="love" title="加入收藏">
+							    	<img src="../img/s中部图片/my-like_01.png"  />
+							    </a>
+						    </i>
+						</a>
+					</div>
+					<h3 class="goods2">
+					    <a href="#">男士纯色立领POLO衫</a>
+					    <span>新品上架</span>
+				    </h3>
+					<div class="goods3">
+						<span>
+						    39<em>￥</em>
+					    </span>
+						<span>
+						    <span>
+						        <del>￥128</del>
+						    </span>
+						<a href="#" class="blue">
+							<span>今日20:00</span>
+						</a>
+						</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--第四部分结束-->
+		<!--第五部分开始-->
+		<div class="logon clearfloat">
+			<a href="#">
+				登录后查看全部预告，
+				<span>登录>></span>
+			</a>
+			<span>或</span>
+			<a href="#">
+				手机无需登录 可看全部预告，
+				<span>下载APP>></span>
+			</a>
+		</div>
+		<!--结尾页脚部分-->
+		<div class="last">
+			<div class="end clearfloat">
+				<div class="lists clearfloat">
+					<div class="list">
+						<img src="../img/结尾脚页部分图片/jp-app-90.png" />
+						<p>随时逛 及时抢</p>
+					</div>
+					<div class="list1">
+						<dl>
+							<dt>获取更新</dt>
+							<dd>
+								<a href="#">iPhone/Android</a>
+							</dd>
+							<dd>
+								<a href="#">卷皮QQ空间</a>
+							</dd>
+							<dd>
+								<a href="#">卷皮新浪微博</a>
+							</dd>
+							<dd>
+								<a href="#">开放API</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>商务合作</dt>
+							<dd>
+								<a href="#">卖家免费报名</a>
+							</dd>
+							<dd>
+								<a href="#">商家入驻</a>
+							</dd>
+							<dd>
+								<a href="#">廉政邮箱</a>
+							</dd>
+							<dd>
+								<a href="#">开放平台</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>公司信息</dt>
+							<dd>
+								<a href="#">关于卷皮</a>
+							</dd>
+							<dd>
+								<a href="#">媒体报道</a>
+							</dd>
+							<dd>
+								<a href="#" class="brand1">诚聘英才</a>
+							</dd>
+							<dd>
+								<a href="#">校园经理招募</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>帮助中心</dt>
+							<dd>
+								<a href="#">新手上路</a>
+							</dd>
+							<dd>
+								<a href="#">积分攻略</a>
+							</dd>
+							<dd>
+								<a href="#">网站地图</a>
+							</dd>
+						</dl>
+					</div>
+					<span class="list2">
+						<a href="#">
+							<img src="../img/结尾脚页部分图片/QQ图片20170511162201_01.png" />
+							<i><img src="../img/结尾脚页部分图片/QQ图片20170511162201_02.png" /></i>
+						</a>
+						<span>
+							<p>周一至周日</p>
+							<p>9:00-21:00</p>
+						</span>
+					</span>
+				</div>
+				<p>武汉奇米网络科技有限公司 鄂ICP备10209250号 | ICP许可证号：鄂B1-20150109 | 鄂公网安备42018502000390号 | 食品流通许可证 SP4201991510041888</p>
+				<p>Copyright © 2010 -2017 JuanPi.com All Rights Reserved</p>
+			</div>
+		</div>
+	</body>
+
+</html>

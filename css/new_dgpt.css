@@ -1,0 +1,470 @@
+/*修改浏览器默认内外边距*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #fcfcfc;
+	font-family: 宋体;
+	font-size: 14px;
+}
+/*清除浮动*/
+.clearfloat:after{
+	content: '';
+	display: block;
+	clear: both;
+	overflow: hidden;
+	height: 0;	
+}
+body a{
+	text-decoration: none;
+}
+body ul{
+	list-style: none;
+	padding: 0px;
+}
+                                         /*第一部分内容*/
+/*框架*/
+.header{
+	width: 980px;
+	margin: 0 auto;
+	height: 90px;
+}
+/*第一部分左部分*/
+.logo{
+	width: 230px;
+	height: 0;
+	margin-top:25px;
+	float: left;
+}
+/*卷皮图标*/
+.logo a:first-child{
+	display: block;
+	background-image: url(../img/QQ截图20170426174310.png);
+	width: 88px;
+	height: 46px;
+	overflow: hidden;
+	float: left;
+}
+/*文字图标*/
+.logo a:last-child{
+	display: block;
+	background-image: url(../img/enroll.gif);
+	width: 138px;
+	height: 40px;
+	float: left;
+	margin: 5px 0 0 3px;
+}
+/*第一部分右部分*/
+.loginBar p{
+	float: right;
+	width: 178px;
+	height: 0;
+	margin-top:40px;
+	text-align: center;
+	line-height: 30px;
+}
+/*右部分内容*/
+.loginBar a{
+	display: block;
+	width: 78px;
+	height: 28px;
+	float: left;
+	border-radius: 3px;
+	font-size: 13px;
+	margin-left: 10px;
+}
+/*卖家登录*/
+.loginBar a:first-child{
+	background-color: #ff464e;
+	color: #fff;
+}
+/*卖家登录悬浮效果*/
+.loginBar a:first-child:hover{
+	opacity: 0.7;
+}
+/*免费注册*/
+.loginBar a:last-child{
+	background-color: #f1f1f1;
+	border: 1px solid #e2e2e2;
+	color: #333;
+}
+/*免费注册悬浮效果*/
+.loginBar a:last-child:hover{
+	background-color: #fcfcfc;
+}
+                                          /*第二部分内容*/
+/*框架*/
+.item{
+	width: 100%;
+	background-color: #2a142b;
+}
+/*内容框架*/
+.nav{
+	width: 980px;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+/*a*/
+.nav a{
+	text-decoration: none;
+	color: #fff;
+}
+/*ul*/
+.nav ul{
+	list-style: none;
+	padding: 0;
+	float: left;
+	margin: 0;
+}
+/*li*/
+.nav li{
+	float: left;
+	width: 116px;
+	height: 40px;
+}
+/*span*/
+.nav span{
+	float: right;
+	width: 144px;
+	height: 40px;
+}
+/*ul里第一个li*/
+.nav li:first-child{
+	background-color: #ff464e;
+	margin-right: 1px;
+}
+/*鼠标悬浮特效*/
+.nav li:hover,.nav span:hover{
+	background-color: #ff464e;
+}
+                                        /*第三部分内容*/
+/*框架*/
+.cnt{
+	width: 980px;
+	margin: 0 auto 50px auto;
+}
+/*第三部分内容上部分框架*/
+.titles{
+	margin: 20px 0;
+	width: 100%;
+	height: 270px;
+}
+/*上部分左边图片*/
+.img{
+	width: 610px;
+	height: 270px;
+	float: left;
+}
+/*上部分右边内容*/
+.title{
+	float: right;
+	width: 348px;
+}
+/*右上规则部分框架*/
+.guilds{
+	height: 190px;
+	margin-bottom: 20px;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+}
+
+/*规则框架*/
+.guilds>p{
+	height: 29px;
+	margin-bottom: 14px;
+	line-height: 29px;
+	border-bottom: 1px solid #e2e2e2;
+	margin: 0;
+	text-align: center;
+}
+/*规则*/
+.guilds>p>a{
+	display: block;
+	width: 103px;
+	height: 30px;
+	color: #333;
+	font-weight: 900;
+	border-right: 1px solid #e2e2e2;
+	background-color: #fff;
+}
+/*内容*/
+.guild ul{
+	margin: 14px 20px 10px 0px;
+	padding-left: 15px;
+	list-style-type: none;
+	
+}
+/*文字上下间距*/
+.guild li{
+	margin-bottom: 12px;
+}
+/*文字颜色*/
+.guild a{
+	color: #333;
+}
+/*悬浮a链接显示下划线*/
+.guild a:hover{
+	text-decoration: underline;
+}
+/*文字前添加小方块*/
+.guild a:before{
+	content: '';
+	width: 9px;
+	height: 9px;
+	position: relative;
+	background-image: url(../img/enroll.gif);
+	background-position-x: 9px;
+	background-position-y: -39px;
+	display: inline-block;
+	margin-right: 5px;
+}
+/*我要报名部分*/
+.guild1{
+	width: 348px;
+	height: 58px;
+	line-height: 58px;
+	background-color: #ff464e;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 900;
+}
+.guild1 a{
+	color: #fff;
+}
+
+.guild1:hover{
+	opacity: 0.8;
+}
+/*第三部分内容中间部分框架*/
+.flow{
+	width: 978px;
+	height: 120px;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+/*报名流程*/
+.flow img{
+	float: left;
+}
+/*报名链接位置*/
+.flow b{
+	float: left;
+	margin-top:18px;
+}
+/*悬浮a链接显示下划线*/
+.flow a:hover{
+	text-decoration: underline;
+}
+/*第三部分内容下部分框架*/
+.msg div{
+	width: 980px;
+	border: 1px solid red;
+	
+}
+/*卷皮折扣介绍*/
+.msg{
+	position: relative;
+	margin-bottom: 40px;
+}
+.msg b{
+	position: absolute;
+	top:-14px;
+	left: 42%;
+	font-size: 22px;
+	width: 160px;
+	height: 33px;
+	background-color: #fcfcfc;
+	text-align: center;
+}
+/*提示信息部分框架*/
+.msg1{
+	width: 1005px;
+}
+/*li*/
+.msg1 li{
+	width: 308px;
+	height: 248px;
+	border: 1px solid #e2e2e2;
+	margin: 0 25px 25px 0;
+	float: left;
+}
+/*标题*/
+.msg1 li>h3{
+	height: 37px;	
+	line-height: 37px;
+	margin: 0 0 0 20px;
+	border-bottom: 1px solid #e2e2e2;
+}
+/*内容*/
+.msg2{
+	padding: 15px 20px 20px 20px;
+}
+.msg2 p:first-child{
+	border-bottom: 1px dashed red;
+	line-height: 23px;
+	margin: 0;
+	padding-bottom: 8px;
+}
+.msg2 p{
+	color: #666;
+	font-size: 13px;
+}
+/*链接部分左边*/
+.msg2 a:first-child{
+	float: left;
+	font-size: 13px;
+	margin-top:7px;
+}
+/*链接部分左边悬浮效果*/
+.msg2 a:first-child:hover{
+	text-decoration: underline;
+}
+/*链接部分右边*/
+.msg2 a:last-child{
+	float: right;
+	display: block;
+	width: 130px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #ff464e;
+	border-radius: 3px;
+	color: #fff;
+	border: 1px solid red;
+}
+/*链接部分右边悬浮效果*/
+.msg2 a:last-child:hover{
+	opacity: 0.8;
+	border: 1px solid red;
+}
+                                       /*结尾页脚部分*/
+
+/*结尾部分框架*/
+.last{
+	width: 100%;
+	border-top: 5px solid #000;
+	margin-bottom: 50px;
+} 
+/*结束部分框架*/  
+.end{
+	width: 980px;
+    padding: 0 50px;
+	margin: 0 auto;
+}
+/*所有a链接区下划线改字体颜色*/
+.end a{
+	text-decoration: none;
+	color: #666;
+}
+/*所有a链接区鼠标悬浮显示下划线*/
+.end a:hover{
+	text-decoration: underline;
+}
+/*结尾列表部分*/
+/*将列表部分浮动为一行*/ 
+.lists{
+	padding-top:25px;
+}
+.lists>div,.list2 a{
+	float: left;
+}  
+.list1>dl{
+	width: 180px;
+	float: left;
+	margin: 0;
+	padding: 0;	
+}
+.list1>dl:last-child{
+	width: 100px;
+}
+.list2>a,.list2>span{
+	display: inline;
+	margin-top:35px;
+	float: right;
+	line-height: 2px;
+}
+/*二维码部分*/
+.list{
+	width: 90px;
+	font-size:13px;
+	text-align: center;
+}
+/*列表部分*/
+.list1{
+	margin-left: 65px;
+	overflow: hidden;
+}
+.list1>dl>dd{
+	margin: 0;
+	margin-bottom: 5px;
+}
+.list1>dl>dt{
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+/*给诚聘英才后加图标*/
+.brand1:after{
+	content: '';
+	width: 64px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../img/结尾脚页部分图片/school-ico.png);
+	position: relative;
+	top:3px;
+	left: 2px;
+}
+/*悬浮联系客服时*/
+.list2>a:hover>img{
+	display: none;
+}
+.list2>a:hover>i{
+	display: block;
+}
+.list2>a>i{
+	display: none;
+}
+/*结尾页脚中间部分*/
+.links{
+	padding-bottom: 10px;
+    border-bottom:1px dotted #bbb;
+}
+.links span{
+	height: 20px;
+	line-height: 20px;
+	float: left;
+}
+/*文字a链接动态部分*/
+#marquee{
+	width: 850px;
+	height: 20px;
+	overflow: hidden;
+	float: left;
+}
+#quee{
+	width: 850px;
+	height: 20px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 0px;
+	line-height: 20px;
+}
+/*更多>>*/
+.links>a{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+}
+.end p{
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+.brand{
+	text-align: center;
+}
